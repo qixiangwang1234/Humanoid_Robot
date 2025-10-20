@@ -17,6 +17,8 @@
 ## 3. PyTorch 验证
 ![Pytorch运行截图](images/torch.png)  
 *图3：Pytorch 验证截图*
+
+
 ![Pytorch运行截图](images/pytorch.png)  
 *图3：torch 运行截图*
 ## 没有独立显卡啊啊啊
@@ -57,4 +59,5 @@ git是管代码版本的工具。改代码时能记录每次修改，改崩了�
 ## 5. 环境都验证好了，下一步先做什么测试？
 
 先测电脑和机器人能不能通信。用Python装个serial库，通过USB连机器人，发指令让LED灯亮灭，确认通信正常；再用PyTorch读张图片做简单处理，验证PyTorch能用。这两步做好，后续控电机、读传感器就有基础了。
+
 > （注：文档部分内容可能由 AI 生成）
